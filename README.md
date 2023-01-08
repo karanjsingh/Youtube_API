@@ -29,7 +29,7 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
     YouTube data v3 API: https://developers.google.com/youtube/v3/getting-started
     Search API reference: https://developers.google.com/youtube/v3/docs/search/list
     
-## Setting Up 🔨
+## Setting Up
 
  <details>
   <summary><strong>Setup Steps</strong></summary>
@@ -54,14 +54,17 @@ $ source env/bin/activate
 ```
 $ pip install -r requirements.txt
 ```
-- Create an .env file and add 
+- Create `.env` file.
+ 
+   Example:
+    ```
         NUM_KEYS=3
         API_KEY_1=KEY_1
         API_KEY_2=KEY_2
         API_KEY_3=Key_3
         QUERRY=mountain
         INTERVAL_SECONDS=10
-```
+ ```
 - Make migrations using
 ```
 $ python manage.py makemigrations
@@ -81,15 +84,15 @@ $ python manage.py createsuperuser
   
 </details>
 
-
-## Usage :label:
+```
+## Usage:
 
 Run the command to build from docker:
 
 $ docker-compose build
 
 $ docker-comopse up
-
+```
 
 
 
