@@ -18,7 +18,17 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
  * Django Rest Framework
  * YouTube data v3 API
 
+## API CALLS
 
+        For Paginated View of Latest content: http://127.0.0.1:8000/
+        To search using a keyword: http://127.0.0.1:8000/?search=news
+
+
+## Reference:
+
+    YouTube data v3 API: https://developers.google.com/youtube/v3/getting-started
+    Search API reference: https://developers.google.com/youtube/v3/docs/search/list
+    
 ## Setting Up 🔨
 
  <details>
@@ -80,15 +90,6 @@ $ docker-compose build
 
 $ docker-comopse up
 
-## API CALLS
 
-        For Paginated View of Latest content: http://127.0.0.1:8000/
-        To search using a keyword: http://127.0.0.1:8000/?search=news
-
-
-## Reference:
-
-    YouTube data v3 API: https://developers.google.com/youtube/v3/getting-started
-    Search API reference: https://developers.google.com/youtube/v3/docs/search/list
 
 
